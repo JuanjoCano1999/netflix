@@ -1,4 +1,4 @@
-const stick1 = document.getElementsByClassName('color')[0];
+/* const stick1 = document.getElementsByClassName('color')[0];
 const stick2 = document.getElementsByClassName('color2')[0];
 const stick3 = document.getElementsByClassName('brush3')[0];
 const lines = document.querySelector('.lines'); 
@@ -17,8 +17,6 @@ setTimeout(() => {
     lines.style.display = 'flex';
 }, 4000);
 
-
-/* lets create some random lines with random margins or gaps */
 
 let colors = [
 '#133286',
@@ -71,8 +69,9 @@ colors.map((color) => {
     line.style.setProperty('--c', color);
     lines.appendChild(line);
 });
+ 
+*/
 
-/* ---------------------------------------------------------------------------------------------------------- */
 
 function showDetails(movieId) {
     const selectedMovieImage = document.getElementById('selectedMovieImage');

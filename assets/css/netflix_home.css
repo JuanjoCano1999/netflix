@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+}
+
+
+.buscador{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: auto;
+    border: 1px solid red;
+    height: 80px;
+}
+
+.contenedor{
+    border: 1px solid teal;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px;
+    height: 100vh;
+    gap: 5px;
+}
+
+.caja{
+    border: 1px solid blue;
+    width: 380px;
+    margin: 5px;
+    padding: 0;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-left: 20px;
+    color: white;
+}
