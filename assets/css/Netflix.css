@@ -8,8 +8,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
 }
 .intro{
     width: 100vw;
@@ -24,13 +22,6 @@ body {
     left: 0;
     object-fit: cover;
 }
-
-h1{
-    margin-bottom: 50px;
-    font-size: 50px;
-}
-
-
 #introVideo{
     width: 100vw;
     height: 100vh;
