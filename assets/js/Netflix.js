@@ -20,6 +20,10 @@ function hideDetails() {
     const detailsOverlay = document.getElementById('detailsOverlay');
     detailsOverlay.style.display = 'none';
 }
+setTimeout(() => {
+    introModal.style.display = 'none';
+
+}, 4500);
 
 function getMovieInfo(movieId) {
     
