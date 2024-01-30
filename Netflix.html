@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,20 @@
     <title>Netflix XJ</title>
 
 </head>
+
 <body>
-        <h1>ADMINISTRAR PERFILES:</h1>
+    <div class="intro" id="introModal">
+        <video width="100%" height="100%" id="introVideo" muted="muted" autoplay="autoplay">
+            <source src="../netflix-NetflixJuanjo/assets/video/netflixIntro.mp4" type="video/mp4">
+            Tu navegador no soporta el tag de video.
+        </video>
+    </div>
+    <h1>ADMINISTRAR PERFILES:</h1>
+
     <div class="container">
         <div class="movie" onclick="showDetails('pelicula1')">
             <a href="./netflix_home.html">
-            <img src="./assets/img/usuarioNetflix.png"  width="281,25px" height="281,25px" alt="Usuario1 ">
+                <img src="./assets/img/usuarioNetflix.png" width="281,25px" height="281,25px" alt="Usuario1 ">
             </a>
         </div>
         <div class="movie" onclick="showDetails('pelicula2')">
@@ -23,17 +32,10 @@
         </div>
     </div>
 
-    <div class="details" id="detailsOverlay" onclick="hideDetails()">
-        <div class="details-content">
-            <img src="" alt="Detalles de la película" id="selectedMovieImage">
-            <div class="text-details">
-                <h2 id="selectedMovieTitle"></h2>
-                <p id="selectedMovieDescription"></p>
-            </div>
-        </div>
-    </div>
+
 
     <script src="./assets/js/netflix.js"></script>
-    
+
 </body>
+
 </html>
