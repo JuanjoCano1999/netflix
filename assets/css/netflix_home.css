@@ -51,6 +51,7 @@ a{
     grid-template-columns: repeat(4, 450px);
     grid-template-rows: repeat(3, 350px) ;
     margin: 20px;
+    margin-top: 90px;
     gap: 20px;
 }
 
@@ -80,9 +81,4 @@ a{
 
 h1{
     color: white;
-}
-
-.titulo{
-    margin-left: 22px;
-    
 }
