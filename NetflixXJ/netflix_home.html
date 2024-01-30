@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./assets/css/netflix_home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/netlix_home.js"></script>
+</head>
+<body>
+
+    <nav class="buscador">
+        <div class="palabras">
+            <img src="./assets/img/netflix.png" alt="Netflix" height="80px" width="142,22px">
+            <a href="">Inicio</a>
+            <a href="">Series TV</a>
+            <a href="">Películas</a>
+            <a href="">Novedades más vistas</a>
+            <a href="">Mi lista</a>
+            <a href="">Explorar por idiomas</a>
+        </div>
+        <div class="iconos">
+        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-bell" style="color: #ffffff;"></i> 
+        <div>
+            <img src="./assets/img/usuarioNetflix.png" class="cajaUsuario2" alt="Usuario1">
+        </div>
+        </div>
+    </nav>
+
+     <div class="contenedor">
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/BlackMirror.mp4')">
+            <img src="./assets/img/BlackMirror.jpg" class="imagenSerie" alt="Black mirror" width="450px" height="250px">
+            <h1>Tendencias en Netflix</h1>
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/MrRobot.mp4')">
+            <img src="./assets/img/hacker.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Host.mp4')">
+            <img src="./assets/img/HostMiedo.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Jason.mp4')">
+            <img src="./assets/img/miedo.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/JohnWick.mp4')">
+            <img src="./assets/img/johnWick.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+            <h1>Series en Netflix</h1>
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Lift.mp4')">
+            <img src="./assets/img/lift.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/LaPurga.mp4')">
+            <img src="./assets/img/laPurga.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Justiciero.mp4')">
+            <img src="./assets/img/justiciero.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Vikingos.mp4')">
+            <img src="./assets/img/vikingos.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/GOT.mp4')">
+            <img src="./assets/img/got.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Peaky.mp4')">
+            <img src="./assets/img/peakyBlinders.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+        <div class="caja" onclick="reproducirTrailer(this, './assets/video/Los100.mp4')">
+            <img src="./assets/img/los100.jpg" class="imagenSerie" alt="hacker" width="450px" height="250px">
+        </div>
+    </div>
+</body>
+</html>

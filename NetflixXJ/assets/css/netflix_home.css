@@ -1,0 +1,84 @@
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+}
+
+
+.buscador{
+    display: flex;
+    background-color: black;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+   /*  border: 1px solid red; */
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.palabras{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.iconos{    
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.contenedor{
+    /* border: 1px solid teal; */
+    display: grid;
+    grid-template-columns: repeat(4, 450px);
+    grid-template-rows: repeat(3, 350px) ;
+    margin: 20px;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.caja{
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    width: 450px;
+    margin: 5px;
+    padding: 0;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cajaUsuario2{
+    width: 20px;
+    height: 20px;
+}
+
+.imagenSerie:hover{
+        transform: scale(1.1);
+}
+
+.imagenSerie{
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+}
